@@ -1,9 +1,9 @@
-import { teamList } from "../../assets/data/dataTeam"
+import { teamList } from "../../assets/data/dataDepartments"
 import { getImageUrlDepmnt } from "../../assets/data/getImageDepartments";
 
 export default function DeptosCard() {
     const dataTeam = teamList.map(value =>
-        <div class="flex flex-col justify-center items-center text-center basis-1/5 mb-4">
+        <div class="flex flex-col justify-center items-center text-center mb-4 md:w-1/5">
             <div class="bg-gray-300 rounded-full w-32 h-32 mb-4">
                 <img src={getImageUrlDepmnt(value)} alt={value.name} class="object-cover h-full w-full"/>
                 <div>
