@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React  from 'react'
+import Navbar from '../src/components/Navbar';
+import NavMobile from './components/NavMobile';
+import SmBanner from './components/SmBanner';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import AboutUs from './pages/About';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <NavMobile />
+      <SmBanner />
+      <Home />
+      <Products />
+      <AboutUs />
+    </>
   );
 }
 
-export default App;
+

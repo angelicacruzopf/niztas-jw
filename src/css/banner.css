@@ -1,0 +1,13 @@
+.banner {
+    background-image: url(../assets//img//banner-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:768px){
+    .banner{
+        background-image: none;
+    }
+
+}
