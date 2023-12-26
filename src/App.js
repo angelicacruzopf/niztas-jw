@@ -9,6 +9,7 @@ import Departamentos from './pages/Departamentos';
 import Testimonials from './pages/Testimonials';
 import ContactUs from './pages/ContactUs';
 import Locations from './pages/Locations';
+import FAQ from './pages/FAQ';
 
 export default function App() {
   return (
@@ -26,9 +27,10 @@ export default function App() {
       <section class="flex justify-center md:hidden pb-16">
         <div class="text-center">
           <h3 class="text-darkGray"><strong>Horarios</strong></h3>
-          <p >Lunes a Domingo: 10:00am - 6:00pmS</p>
+          <p >Lunes a Domingo: 10:00am - 6:00pm</p>
         </div>
       </section>
+      <FAQ />
     </>
   );
 }
