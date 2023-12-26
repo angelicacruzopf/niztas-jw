@@ -1,7 +1,7 @@
 import { teamList } from "../../assets/data/dataTeam"
 import { getImageUrlDepmnt } from "../../assets/data/getImageDepartments";
 
-export default function TeamCard() {
+export default function DeptosCard() {
     const dataTeam = teamList.map(value =>
         <div class="flex flex-col justify-center items-center text-center basis-1/5 mb-4">
             <div class="bg-gray-300 rounded-full w-32 h-32 mb-4">

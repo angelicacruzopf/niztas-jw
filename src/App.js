@@ -5,6 +5,7 @@ import SmBanner from './components/SmBanner';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import AboutUs from './pages/About';
+import Departamentos from './pages/Departamentos';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Home />
       <Products />
       <AboutUs />
+      <Departamentos />
     </>
   );
 }
