@@ -10,6 +10,7 @@ import Testimonials from './pages/Testimonials';
 import ContactUs from './pages/ContactUs';
 import Locations from './pages/Locations';
 import FAQ from './pages/FAQ';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         </div>
       </section>
       <FAQ />
+      <Footer />
     </>
   );
 }
