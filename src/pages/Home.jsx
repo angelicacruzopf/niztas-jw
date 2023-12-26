@@ -12,7 +12,7 @@ export default function Home() {
       <div class="hidden md:inline-block h-full w-1/2">
         <img src={bannerImg} alt="Sandalias" class="object-cover h-full w-full"/>
       </div>
-      <div class="flex flex-col justify-evenly items-center w-[80%] md:w-1/2 h-[70%] md:bg-fifth py-20 md:h-full">
+      <div class="flex flex-col justify-evenly items-center w-[80%] md:w-1/2 h-[70%] md:bg-third py-20 md:h-full">
         <div class="w-full md:w-2/3 py-4">
             <h2 class="text-xl uppercase font-bold">Gran venta de</h2>
             <img src={ventaNavidad} alt="Letras rojas" class="w-full md:hidden"/>
