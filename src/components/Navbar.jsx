@@ -10,12 +10,12 @@ export default function Navbar() {
       };
 
     return (
-        <nav class="navbar fixed-nav flex-row justify-between items-center text-sm bg-white py-2 px-4 fixed z-50 w-full">
+        <nav class="navbar fixed-nav flex-row justify-between items-center text-sm bg-white py-2 px-4 fixed z-50 w-full gap-4">
             <div class="h-10">
                 <img src={logoHorizontal} alt="Logo nitza's" class="object-fit w-full h-full"/>
             </div>  
             <div className='flex flex-row grow justify-center'>
-                <ul class='flex flex-row grow justify-evenly font-normal text-center text-darkGray'>
+                <ul class='flex flex-row grow justify-evenly font-normal text-center text-darkGray gap-2'>
                     <li><Link activeClass="active" 
                             to="hero" 
                             spy={true} 
@@ -58,13 +58,7 @@ export default function Navbar() {
                             offset={-100} 
                             duration={500} 
                             onSetActive={handleSetActive}>Sucursales</Link></li>
-                    <li><Link activeClass="active" 
-                            to="horarios" 
-                            spy={true} 
-                            smooth={true} 
-                            offset={-100} 
-                            duration={500} 
-                            onSetActive={handleSetActive}>Horarios</Link></li>
+                    
                 </ul>
             </div>
             <div>
