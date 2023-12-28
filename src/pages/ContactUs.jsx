@@ -7,7 +7,7 @@ import clock from "../assets/img/icons/clock-w.png";
 
 export default function ContactUs() {
     return (
-        <section class="flex justify-center bg-third">
+        <section id="contacto" class="flex justify-center bg-third">
             <div class="flex flex-col md:grid grid-cols-3 py-20 w-[90%] lg:w-9/12 place-self-center gap-8 text-white">
                 <div class="flex flex-col w-full gap-8">
                     <h2 class="font-bold md:mb-10 text-2xl text-center md:text-4xl md:text-left">¿Necesitas algo?

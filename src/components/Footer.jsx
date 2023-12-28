@@ -12,7 +12,7 @@ export default function Footer() {
                         <img src={logoIcn} alt="Ícono del logo" class="md:object-cover w-[95%]"/>
                     </div>
                     <p class="text-white text-center">Marcando la diferencia</p>
-                    <div class="text-white opacity-50 text-5xl flex flex-row justify-evenly mb-6 sm:mb-0">
+                    <div class="text-white opacity-50 text-5xl flex flex-row justify-evenly mb-6 md:mb-0">
                         <img src={fbLogo} alt="Logo Facebook"/>
                         <img src={waLogo} alt="Logo Facebook"/>
                         <img src={inLogo} alt="Logo Facebook"/>

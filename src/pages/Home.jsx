@@ -8,7 +8,7 @@ console.log (ventaNavidad);
 export default function Home() {
 
   return (
-    <section class="text-center flex flex-col md:flex-row items-center banner justify-between relative h-[800px] md:h-[600px]">
+    <section id="hero" class="text-center flex flex-col md:flex-row items-center banner justify-between relative h-[800px] md:h-[600px] top-[50px]">
       <div class="hidden md:inline-block h-full w-1/2">
         <img src={bannerImg} alt="Sandalias" class="object-cover h-full w-full"/>
       </div>

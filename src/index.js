@@ -5,6 +5,8 @@ import './css/navbar.css'
 import './css/banner.css'
 import './css/form.css'
 import './css/accordion.css'
+import './css/products.css'
+import './css/testimonials.css'
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';

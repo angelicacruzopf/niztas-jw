@@ -7,7 +7,7 @@ export const productsList = [{
     imageId: 'AA01'
 },{
     id: 2,
-    title: 'ENERGIZER Generador silencioso - 4500w',
+    title: 'Red sneakers by Menina',
     description : 'Tallas 5 al 10',
     currency: '+IVU',
     price: '$42.00',
@@ -43,3 +43,5 @@ export const productsList = [{
     imageId: 'AA06'
 },
 ]
+
+

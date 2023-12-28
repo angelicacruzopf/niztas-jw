@@ -12,20 +12,26 @@ import Locations from './pages/Locations';
 import FAQ from './pages/FAQ';
 import Footer from './components/Footer';
 
+
+
+
 export default function App() {
+
+
+
   return (
     <>
       <Navbar />
       <NavMobile />
       <SmBanner />
-      <Home />
-      <Products />
-      <AboutUs />
-      <Departamentos />
-      <Testimonials />
-      <ContactUs />
-      <Locations />
-      <section class="flex justify-center md:hidden pb-16">
+      <Home id="inicio"/>
+      <Products id="products" />
+      <AboutUs id="aboutUs" />
+      <Departamentos id="departamentos" />
+      <Testimonials  id="testimonials"/>
+      <ContactUs id="contacto" />
+      <Locations  id="sucursales" />
+      <section  id="horarios"  class="flex justify-center md:hidden pb-16">
         <div class="text-center">
           <h3 class="text-darkGray"><strong>Horarios</strong></h3>
           <p >Lunes a Domingo: 10:00am - 6:00pm</p>

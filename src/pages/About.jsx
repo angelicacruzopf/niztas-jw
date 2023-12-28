@@ -3,7 +3,7 @@ import logoVertical from '../assets/img/logos/logo-vertical-bco.svg';
 
 export default function AboutUs() {
   return (
-    <section>
+    <section id="aboutUs">
       <div class="bg-darkGray flex flex-col items-center py-16">
         <div class="flex flex-col items-center w-[90%] md:w-1/2">
           <div class="flex flex-col justify-center">
