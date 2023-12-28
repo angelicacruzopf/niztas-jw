@@ -11,8 +11,8 @@ export default function Testimonials() {
 
   return (
     <section className="flex items-center py-16 flex-col">
-  <div className="w-[90%] md:w-full flex flex-col items-center">
-    <h2 className="font-bold text-center mb-10 text-5xl">Lo que piensan nuestros clientes</h2>
+  <div className="w-[90%] md:w-full flex flex-col items-center max-w-[1000px]">
+    <h2 className="font-bold text-center mb-10 text-2xl md:text-5xl">Lo que piensan nuestros clientes</h2>
     <div className="md:hidden">
         <div className="testimonial-container">
         <TestimonialCard currentIndex={currentIndex} />

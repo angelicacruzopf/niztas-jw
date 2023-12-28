@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <section id="aboutUs">
       <div class="bg-darkGray flex flex-col items-center py-16">
-        <div class="flex flex-col items-center w-[90%] md:w-1/2">
+        <div class="flex flex-col items-center w-[90%] md:w-1/2 max-w-[800px]">
           <div class="flex flex-col justify-center">
             <div class="flex justify-center h-52 mb-8">
               <img src={logoVertical} alt="Logotipo Hardware Solutions" class="object-cover h-full"/>

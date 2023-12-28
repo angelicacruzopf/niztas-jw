@@ -14,7 +14,7 @@ export default function Navbar() {
             <div class="h-10">
                 <img src={logoHorizontal} alt="Logo nitza's" class="object-fit w-full h-full"/>
             </div>  
-            <div className='flex flex-row grow justify-center'>
+            <div className='flex flex-row grow justify-center max-w-[1000px]'>
                 <ul class='flex flex-row grow justify-evenly font-normal text-center text-darkGray gap-2'>
                     <li><Link activeClass="active" 
                             to="hero" 

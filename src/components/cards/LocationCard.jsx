@@ -9,7 +9,7 @@ export default function LocationCard() {
         <>
             {locationsList.map(value =>
             
-            <div class="flex items-center justify-between md:w-[45%]" key={value.id}>
+            <div class="flex items-center justify-between md:w-[45%] gap-2" key={value.id}>
                 <div class="rounded-3xl my-4">
                     <img src={map} alt="mapa"/>
                 </div>

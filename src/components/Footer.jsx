@@ -6,7 +6,7 @@ import inLogo from '../assets/img/logos/WhatsApp.png';
 export default function Footer() {
     return(
         <section class="bg-darkGray flex flex-col justify-center items-center py-16">
-            <div class="md:grid grid-cols-3 w-[90%] sm:w-3/5 place-items-center pb-16">
+            <div class="md:grid grid-cols-3 w-[90%] sm:w-3/5 place-items-center pb-16 max-w-[1000px]">
                 <div class="flex flex-col gap-6 w-full">
                     <div class="justify-self-center self-center flex justify-center items-center h-full">
                         <img src={logoIcn} alt="Ícono del logo" class="md:object-cover w-[95%]"/>

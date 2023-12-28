@@ -1,14 +1,14 @@
 import BtnFlat from "../components/buttons/BtnFlat";
-import ventaNavidad  from "../assets/img/xmas-letters-red.png"
+import ventaNavidad  from "../assets/img/xmas-letters-red@2x.png"
 import bannerImg from "../assets/img/banner-img-desktop@2x.png"
-import letrasBlancas from "../assets/img/xmas-letters-white.png"
+import letrasBlancas from "../assets/img/xmas-letters-white@2x.png"
 
 console.log (ventaNavidad);
 
 export default function Home() {
 
   return (
-    <section id="hero" class="text-center flex flex-col md:flex-row items-center banner justify-between relative h-[800px] md:h-[600px] top-[50px]">
+    <section id="hero" class="text-center flex flex-col md:flex-row items-center banner justify-between relative h-[800px] md:h-[600px] mt-[50px] md:mt-0 md:top-[20px]">
       <div class="hidden md:inline-block h-full w-1/2">
         <img src={bannerImg} alt="Sandalias" class="object-cover h-full w-full"/>
       </div>

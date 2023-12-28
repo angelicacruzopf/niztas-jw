@@ -3,7 +3,7 @@ import LocationCard from "../components/cards/LocationCard";
 export default function Locations() {
   return (
     <section id="sucursales" className="flex justify-center py-16">
-      <div className="flex flex-col w-[90%] md:w-9/12 md:justify-center">
+      <div className="flex flex-col w-[90%] md:w-9/12 md:justify-center max-w-[1000px]">
         <h2 className="font-bold text-center mb-10  text-2xl md:text-5xl text-mediumGray">Nuestras sucursales</h2>
         <div className="grid mb-16">
           <div class="flex items-center">
