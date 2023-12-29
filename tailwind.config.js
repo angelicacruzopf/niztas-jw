@@ -1,47 +1,40 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    fontFamily:{
-      openSans: ['Montserrat'],
+    fontFamily: {
+      openSans: ["Montserrat"],
     },
     screens: {
-      'xs': '475px',
+      xs: "475px",
       ...defaultTheme.screens,
     },
-    
-    extend: {
 
+    extend: {
       lineHeight: {
-        'extra-loose': '2.5',
-        '12': '3rem',
+        "extra-loose": "2.5",
+        12: "3rem",
       },
       colors: {
-        primary: '#FE860E',
-        secondary: '#FF4F79',
-        third: '#EF304F',
-        fourth: '#D62744',
-  
-        darkGray: '#191A1B',
-        mediumGray: '#292D32',
-        neutralGray: '#666666',
-        lighterGray: '#D2D2D2',
-        grayWhithe: '#F0F0F0',
+        primary: "#FE860E",
+        secondary: "#FF4F79",
+        third: "#EF304F",
+        fourth: "#D62744",
 
+        darkGray: "#191A1B",
+        mediumGray: "#292D32",
+        neutralGray: "#666666",
+        lighterGray: "#D2D2D2",
+        grayWhithe: "#F0F0F0",
       },
-      height:{
-        '100': '26rem',
-        '120': '28rem',
-        '128': '32rem',
+      height: {
+        100: "26rem",
+        120: "28rem",
+        128: "32rem",
       },
     },
-
-    
   },
   plugins: [],
-}
-
+};

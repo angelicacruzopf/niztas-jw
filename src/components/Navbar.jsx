@@ -10,7 +10,7 @@ export default function Navbar() {
       };
 
     return (
-        <nav class="navbar fixed-nav flex-row justify-between items-center text-sm bg-white py-2 px-4 fixed z-50 w-full gap-4">
+        <nav class="navbar fixed-nav flex-row justify-between items-center text-sm bg-white py-2 px-4 fixed z-50 w-full gap-4 shadow-md">
             <div class="h-10">
                 <img src={logoHorizontal} alt="Logo nitza's" class="object-fit w-full h-full"/>
             </div>  
